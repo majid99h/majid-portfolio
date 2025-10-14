@@ -1,22 +1,30 @@
-/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
-/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
 {
   "compileOnSave": false,
   "compilerOptions": {
+    /* Output and module system */
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "bundler",
     "outDir": "./dist/out-tsc",
+
+    /* Modern bundler setup */
+    "useDefineForClassFields": false,
+    "isolatedModules": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": [],
+    "lib": ["ES2022", "DOM"],
+
+    /* Strictness and safety */
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "skipLibCheck": true,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "moduleResolution": "bundler",
-    "importHelpers": true,
-    "target": "ES2022",
-    "module": "ES2022"
+
+    /* Decorator support */
+    "experimentalDecorators": true
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

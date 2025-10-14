@@ -1,0 +1,170 @@
+{
+  "name": "Majid Nawaz",
+  "title": "Full Stack Developer | Angular • .NET Core • Azure",
+  "bio": "Full Stack Developer with 10+ years of experience designing and developing enterprise-level applications. Skilled in .NET Core, C#, Angular, SQL Server, Redis, Kafka, GRPC, and Azure. Adept at building scalable, high-performance systems and collaborating with cross-functional teams to deliver robust solutions.",
+  "about": "I'm Majid Nawaz, a Full Stack Developer with over 10 years of experience building enterprise-grade software solutions. My expertise spans Angular, .NET Core, C#, SQL Server, and Azure, with strong focus on performance, scalability, and clean architecture. I’ve led the development of large-scale systems in traffic management, ANPR, and ERP domains — integrating technologies like Redis, Kafka, GRPC, and NGINX to deliver real-time, high-availability applications. I’m passionate about crafting efficient solutions, mentoring teams, and continuously exploring new technologies that enhance reliability and user experience. Currently, I’m working at Traffic Tech Gulf (Qatar), where I build next-generation traffic analytics and monitoring systems.",
+  "skills": [
+    {
+      "icon": "fas fa-code",
+      "text": "Angular"
+    },
+    {
+      "icon": "fas fa-code",
+      "text": "TypeScript"
+    },
+    {
+      "icon": "fas fa-layer-group",
+      "text": ".NET Core"
+    },
+    {
+      "icon": "fas fa-terminal",
+      "text": "C#"
+    },
+    {
+      "icon": "fas fa-database",
+      "text": "SQL Server"
+    },
+    {
+      "icon": "fas fa-memory",
+      "text": "Redis"
+    },
+    {
+      "icon": "fas fa-stream",
+      "text": "Kafka"
+    },
+    {
+      "icon": "fas fa-cloud",
+      "text": "Azure"
+    },
+    {
+      "icon": "fas fa-network-wired",
+      "text": "GRPC"
+    },
+    {
+      "icon": "fas fa-box",
+      "text": "Docker"
+    },
+    {
+      "icon": "fas fa-server",
+      "text": "NGINX"
+    },
+    {
+      "icon": "fas fa-globe",
+      "text": "ArcGIS"
+    },
+    {
+      "icon": "fas fa-laptop-code",
+      "text": "ASP.NET MVC"
+    },
+    {
+      "icon": "fas fa-plug",
+      "text": "SignalR"
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc in Computer Science",
+      "institution": "Bahria University, Karachi",
+      "type": "Undergraduate",
+      "year": "2012 - 2015"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Smart ANPR System (MOI - Qatar)",
+      "desc": "Advanced plate recognition and monitoring system for the Ministry of Interior, featuring real-time alerts, ArcGIS integration, and online/offline camera monitoring.",
+      "stack": ".NET Core, Angular, TypeScript, Kafka, Redis, NGINX, SQL Server, ArcGIS",
+      "link": "https://majidnawaz.dev/projects/smart-anpr"
+    },
+    {
+      "name": "Traffic Management Dashboard",
+      "desc": "Enterprise dashboard displaying live ANPR feeds, transactions, device health, and enforcement analytics for Traffic Tech Gulf.",
+      "stack": "Angular, .NET Core, Dapper, SQL Server, Redis",
+      "link": "https://majidnawaz.dev/traffic-dashboard"
+    },
+    {
+      "name": "Tanker Management System (ATTMS)",
+      "desc": "Comprehensive tanker monitoring and management platform featuring camera integration, plate recognition, and real-time reporting.",
+      "stack": ".NET Core, MVC, SQL Server, Redis, Kafka",
+      "link": "https://majidnawaz.dev/projects/attms"
+    },
+    {
+      "name": "PRISM ERP",
+      "desc": "Full-featured ERP solution with POS, Inventory, Payroll, and Accounting modules, developed for HDK Solutions.",
+      "stack": "C#, ASP.NET MVC, SQL Server, Kendo UI, Bootstrap, T4 Templates",
+      "link": "https://majidnawaz.dev/projects/prism"
+    },
+    {
+      "name": "Face Recognition Demo (Azure Pipeline)",
+      "desc": "AI-driven face detection pipeline using Python for recognition, RabbitMQ for messaging, and .NET Core consumer API for data persistence.",
+      "stack": "Python, .NET Core, RabbitMQ, SQL Server, Azure",
+      "link": "https://majidnawaz.dev/demo-facerecognition"
+    },
+    {
+      "name": "Developer Portfolio Site",
+      "desc": "Personal JSON-driven portfolio built with Angular 20 and TailwindCSS, hosted on Vercel and linked to custom domain.",
+      "stack": "Angular 20, TailwindCSS, Vercel",
+      "link": "https://majidnawaz.com"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Traffic Tech Gulf (Qatar)",
+      "role": "Software Developer",
+      "duration": "Dec 2019 - Present",
+      "details": [
+        "Lead development of enterprise-level traffic and ANPR systems.",
+        "Integrated Kafka and GRPC for real-time communication and scalability.",
+        "Optimized APIs and database queries using Dapper and Redis.",
+        "Collaborated with cross-functional teams and conducted weekly technical reviews.",
+        "Maintained high-availability deployments on NGINX and Azure environments."
+      ]
+    },
+    {
+      "company": "Systems Limited",
+      "role": "Senior Software Developer",
+      "duration": "Jul 2019 - Dec 2019",
+      "details": [
+        "Developed new modules and optimized legacy systems.",
+        "Improved backend performance and implemented new API endpoints.",
+        "Contributed to .NET Core service architecture and Angular UI components."
+      ]
+    },
+    {
+      "company": "HDK Solutions",
+      "role": "Software Developer",
+      "duration": "Dec 2016 - Dec 2018",
+      "details": [
+        "Built ERP applications from scratch using C#, MVC, and SQL Server.",
+        "Implemented reusable components and optimized data access layers.",
+        "Mentored junior developers and participated in client requirement sessions."
+      ]
+    },
+    {
+      "company": "Converge Technologies",
+      "role": "Software Developer",
+      "duration": "Mar 2015 - Nov 2015",
+      "details": [
+        "Maintained WebForms applications and implemented new features.",
+        "Collaborated with senior developers to deliver timely software updates."
+      ]
+    },
+    {
+      "company": "Soft Vision",
+      "role": "Software Developer (Intern)",
+      "duration": "Feb 2014 - Feb 2015",
+      "details": [
+        "Developed WebForms-based modules and participated in early-stage product development.",
+        "Worked with C# and ASP.NET on multiple small-scale applications."
+      ]
+    }
+  ],
+  "contact": {
+    "email": "majid99h@gmail.com",
+    "linkedin": "https://linkedin.com/in/majid-nawaz",
+    "github": "https://github.com/majid99h",
+    "website": "https://majidnawaz.com",
+    "phone": "+97477187868",
+    "location": "Qatar / Karachi, Pakistan"
+  }
+}
