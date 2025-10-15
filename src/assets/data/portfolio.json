@@ -71,40 +71,58 @@
   ],
   "projects": [
     {
-      "name": "Smart ANPR System (MOI - Qatar)",
-      "desc": "Advanced plate recognition and monitoring system for the Ministry of Interior, featuring real-time alerts, ArcGIS integration, and online/offline camera monitoring.",
-      "stack": ".NET Core, Angular, TypeScript, Kafka, Redis, NGINX, SQL Server, ArcGIS",
-      "link": "https://majidnawaz.dev/projects/smart-anpr"
+      "name": "Smart Banking System",
+      "desc": "A complete banking dashboard built using ASP.NET MVC and EF Core, featuring secure authentication, account management, transaction tracking, and audit exports with Bootstrap 5 responsive UI.",
+      "stack": "ASP.NET MVC, C#, EF Core, SQL Server, Bootstrap 5",
+      "tags": [
+        "MVC",
+        "EF Core",
+        "SQL Server",
+        "Bootstrap"
+      ],
+      "image": "assets/images/projects/banking-system.png",
+      "link": "https://majidnawaz.dev/projects/banklite"
     },
     {
-      "name": "Traffic Management Dashboard",
-      "desc": "Enterprise dashboard displaying live ANPR feeds, transactions, device health, and enforcement analytics for Traffic Tech Gulf.",
-      "stack": "Angular, .NET Core, Dapper, SQL Server, Redis",
-      "link": "https://majidnawaz.dev/traffic-dashboard"
+      "name": "Smart ERP Inventory Module",
+      "desc": "Inventory management system with PR, PO, GRN, Rejection, and Supplier modules. Real-time communication via SignalR and caching using Redis.",
+      "stack": "Angular 20, .NET 8 Web API, SQL Server, SignalR, Redis",
+      "tags": [
+        "Angular",
+        ".NET 8",
+        "SignalR",
+        "Redis",
+        "SQL Server"
+      ],
+      "image": "assets/images/projects/smart-erp.png",
+      "link": "https://majidnawaz.dev/projects/smart-erp"
     },
     {
-      "name": "Tanker Management System (ATTMS)",
-      "desc": "Comprehensive tanker monitoring and management platform featuring camera integration, plate recognition, and real-time reporting.",
-      "stack": ".NET Core, MVC, SQL Server, Redis, Kafka",
-      "link": "https://majidnawaz.dev/projects/attms"
+      "name": "AI Face Recognition System",
+      "desc": "AI-driven recognition pipeline with Python microservices for embeddings, RabbitMQ for communication, FastAPI backend, and Angular dashboard connected to a NoSQL database.",
+      "stack": "Python, Angular, RabbitMQ, NoSQL, FastAPI / Flask",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Angular",
+        "RabbitMQ",
+        "NoSQL"
+      ],
+      "image": "assets/images/projects/face-recognition.png",
+      "link": "https://majidnawaz.dev/projects/face-recognition"
     },
     {
-      "name": "PRISM ERP",
-      "desc": "Full-featured ERP solution with POS, Inventory, Payroll, and Accounting modules, developed for HDK Solutions.",
-      "stack": "C#, ASP.NET MVC, SQL Server, Kendo UI, Bootstrap, T4 Templates",
-      "link": "https://majidnawaz.dev/projects/prism"
-    },
-    {
-      "name": "Face Recognition Demo (Azure Pipeline)",
-      "desc": "AI-driven face detection pipeline using Python for recognition, RabbitMQ for messaging, and .NET Core consumer API for data persistence.",
-      "stack": "Python, .NET Core, RabbitMQ, SQL Server, Azure",
-      "link": "https://majidnawaz.dev/demo-facerecognition"
-    },
-    {
-      "name": "Developer Portfolio Site",
-      "desc": "Personal JSON-driven portfolio built with Angular 20 and TailwindCSS, hosted on Vercel and linked to custom domain.",
-      "stack": "Angular 20, TailwindCSS, Vercel",
-      "link": "https://majidnawaz.com"
+      "name": "React Analytics Dashboard",
+      "desc": "Modern analytics dashboard featuring React components, RESTful APIs, JWT authentication, and real-time charts built with Chart.js and MongoDB.",
+      "stack": "React, Node.js, Express, MongoDB, Chart.js",
+      "tags": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "image": "assets/images/projects/react-dashboard.png",
+      "link": "https://majidnawaz.dev/projects/react-analytics"
     }
   ],
   "experience": [
