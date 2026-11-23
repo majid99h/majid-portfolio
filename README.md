@@ -1,59 +1,36 @@
-# MajidPortfolio
+# 👨‍💻 Majid Nawaz — Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
+My personal portfolio website, built with **Angular 19** and **Tailwind CSS 4**.
 
-## Development server
+🔗 **Live site:** [majidportfolio-ten.vercel.app](https://majidportfolio-ten.vercel.app)
 
-To start a local development server, run:
+![Angular](https://img.shields.io/badge/Angular-19-DD0031?logo=angular&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?logo=vercel)
+
+## 📄 Sections
+
+1. **About:** background and skills
+2. **Experience:** professional history
+3. **Work:** selected projects
+4. **Contact:** how to get in touch
+
+The site's content comes from `src/assets/data/portfolio.json`, so you can update it without changing any components.
+
+## 🚀 Run locally
 
 ```bash
+npm install
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open `http://localhost:4200/`.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+## 📦 Build
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+The build output goes to `dist/`.
